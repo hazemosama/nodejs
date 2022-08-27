@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./parts/head.ejs') %>
+  <body>
+    <h1>Welcome</h1>
+    <form action="/" method="POST">
+      <input type="text" name="name" id="input" />
+      <input type="submit" value="Greet" id="submit-button" />
+    </form>
+
+    <% if(typeof name !== 'undefined') { %>
+    <h3>Hello <%= name %></h3>
+    <% } else { %>
+    <h3>Enter your name</h3>
+    <% } %>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+h1 {
+    color: #cc2b2b;
+}
+
+h3 {
+    color: blue;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+#input {
+    background-color: white;
+    border-radius: 20px;
+    border: 0px;
+    width: 250px;
+    height: 10px;
+    color:hwb(236 21% 24%);
+    font-size: 22px;
+    padding: 20px
+}
+
+#submit-button{
+    background-color: hwb(236 21% 24%);
+    border-radius: 20px;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 22px;
+}
